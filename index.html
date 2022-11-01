@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maximo Decima">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./images/starbucks.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Starbucks</title>
+</head>
+<body>
+
+    <!-- Encabezado Inicio -->
+
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo-img" src="./images/logo.png" alt="logo__Starbucks">
+        </div>
+        <div class="header__nav">
+            <svg class="header__nav-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            <nav class="header__nav-links">
+                <a class="header__nav-link" href="#">INICIO</a>
+                <a class="header__nav-link" href="#">CAFE</a>
+                <a class="header__nav-link" href="#">SOBRE NOSOTROS</a>
+                <a class="header__nav-link" href="#">DELIVERY</a>
+            </nav>
+        </div>
+        <div class="header__user">
+            <svg class="header__user-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+              </svg>
+        </div>
+    </header>
+
+    <!-- Encabezado Fin -->
+
+    <!-- Sección Principal Inicio -->
+
+    <main class="main">
+        <section class="main__speech">
+            <div class="main__speech-text">
+                <h1 class="speech__text-h1">No solo es Cafe es <span class="speech__text-green">Starbucks</span></h1>
+                <p class="speech__text-p">Cada día, acudimos a trabajar con la esperanza de conseguir dos cosas: compartir el mejor café con nuestros amigos y contribuir a que el mundo sea un poco mejor. Así era cuando abrió la primera tienda Starbucks en 1971, y así continúa siendo hoy.</p>
+            </div>
+            <div class="main__speech-img">
+                <img class="main__img" src="./images/logo.png" alt="logo__Starbucks">
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección Principal Fin -->
+
+    <!-- Galeria Inicio -->
+
+    <section class="gallery">
+        <img class="gallery__img" src="./images/gallery-1.png" alt="galeria-imagen">
+        <img class="gallery__img" src="./images/gallery-2.png" alt="galeria-imagen">
+        <img class="gallery__img" src="./images/gallery-3.png" alt="galeria-imagen">
+    </section>
+
+    <!-- Galeria Fin -->
+
+    <!-- Formulario de Contacto Inicio -->
+
+    <section class="contact">
+        <div class="contact__title">
+            <h1 class="contact__title-h1">CONTACTANOS</h1>
+        </div>
+        <div class="contact__form">
+            <form class="form">
+                <label class="form__label">Correo Electronico</label>
+                <input class="form__input" type="text" name="email__contact" required placeholder="Coloque su correo electronico">
+                <label class="form__label" for="">Comentario</label>
+                <textarea class="form__comment" name="comment__contact" required placeholder="Coloque su comentario"></textarea>
+                <input class="form__submit" type="submit">
+            </form>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto Fin -->
+
+</body>
+</html>
